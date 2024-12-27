@@ -15,7 +15,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 * create .env file in main directory
-* set data into it (use .env.sample for reference)
+* set data into it
 ```shell
 POSTGRES_HOST=POSTGRES_HOST
 POSTGRES_DB=POSTGRES_DB
