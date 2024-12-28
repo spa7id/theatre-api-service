@@ -11,6 +11,7 @@ RUN pip install -r requirements.txt
 RUN pip install -r requirements.txt
 
 COPY . .
+COPY initial_data.json /app/
 
 RUN mkdir -p /vol/web/media
 
