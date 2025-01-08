@@ -15,4 +15,4 @@ urlpatterns = [
     path("token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
 ]
 
-app_name = "user"
+app_name = "users"
